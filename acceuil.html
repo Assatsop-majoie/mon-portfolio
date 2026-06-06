@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASSA'TSOP Majoie — IUT Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+       <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">ASSA'TSOP <span>MAJOIE</span></div>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Accueil</a></li>
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#projects" class="nav-link">Projets</a></li>
+        <li><a href="#skills" class="nav-link">Compétences</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-intro">Salut, </p>
+        <h1 class="hero-title">
+          Je suis <span class="accent">[Majoie]</span>,<br>
+          Développeuse junior<br>
+          passionnée par le web<br>
+          et le design !
+        </h1>
+        <a href="#projects" class="btn-primary">Voir mes projets</a>
+      </div>
+      <div class="hero-image">
+        <div class="hero-img-wrap">
+          <img src="dev.png" alt="Développeuse illustration" class="hero-img-main"/>
+          <div class="hero-img-fallback">👩‍💻</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--À PROPOS-->
+  <section id="about">
+    <div class="section-container">
+      <h2 class="section-title accent">À propos</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Je m'appelle <span class="accent">[Majoie]</span>,passionnée
+             par l'informatique et l'innovation technologique.
+          </p>
+          <p>
+            Je suis actuellement étudiante en <span class="accent">développement web</span>,
+            et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.
+          </p>
+          <p>
+            curieuse et motivée, j'aime concevoir des solutions web esthétiques et performantes.
+            Mon objectif est de transformer des idées complexes en expériences numeriques simples et intuitives.
+          </p>
+          <a href="#" class="btn-primary" download>Télécharger mon CV</a>
+        </div>
+        <div class="about-photo">
+          <div class="photo-circle">
+            <img src="image.jpg" alt="profil">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- 🧑‍🎓 -->
+  <!-- PROJETS-->
+  <section id="projects">
+    <div class="section-container">
+      <h2 class="section-title accent">Mes Projets</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon">🍽️</div>
+          <h3 class="project-name">Restaurant Manager</h3>
+          <p class="project-desc">
+            Site web complet de gestion d'un restaurant avec réservations,
+            menu interactif et interface d'administration.
+          </p>
+          <div class="project-tags">
+            <span class="tag">#html</span>
+            <span class="tag">#css</span>
+            <span class="tag">#js</span>
+            <span class="tag">#bd</span>
+          </div>
+          <a href="#" class="btn-card">Voir</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">⚽</div>
+          <h3 class="project-name">Analyseur de Réseau de Passes</h3>
+          <p class="project-desc">
+            Cette application permet d'entrer le nombre et le nom des joueurs,
+            passes entre joueurs, avec une auto-generation du graphe et des stats du match et joueurs.
+          </p>
+          <div class="project-tags">
+            <span class="tag">#python</span>
+            <span class="tag">#bibliotheques</span>
+          </div>
+          <a href="#" class="btn-card">Voir</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🎨</div>
+          <h3 class="project-name">Design & Branding</h3>
+          <p class="project-desc">
+            Création de flyers, logos et identités visuelles
+            pour divers clients et projets personnels.
+          </p>
+          <div class="project-tags">
+            <span class="tag">#design</span>
+            <span class="tag">#logo</span>
+            <span class="tag">#flyer</span>
+          </div>
+          <a href="#" class="btn-card">Voir</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--COMPÉTENCES -->
+  <section id="skills">
+    <div class="section-container">
+      <h2 class="section-title dark">Mes Compétences</h2>
+      <div class="skills-grid">
+
+        <!-- Soft Skills -->
+        <div class="skills-card">
+          <h3 class="skills-card-title">Soft Skills</h3>
+          <div class="skill-row">
+            <span class="skill-label">Gestion de projet</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Résolution de problème</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Adaptabilité</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Créativité</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+        </div>
+
+        <!-- Hard Skills -->
+        <div class="skills-card">
+          <h3 class="skills-card-title">Hard Skills</h3>
+          <div class="skill-row">
+            <span class="skill-label">HTML</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">CSS</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">JavaScript</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="57"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Python</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="40"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Design</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Bases de données</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="section-container">
+      <h2 class="contact-heading">
+        Vous avez un <span class="accent">projet en tête ?</span><br>
+        N'hésitez pas à me <span class="accent">contacter</span>
+      </h2>
+
+      <form class="contact-form" action="http://formspree.io/f/xeewegqw" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Votre prénom</label>
+            <input type="text" name="prenom" placeholder="Prénom..." required />
+          </div>
+          <div class="form-group">
+            <label>Votre nom</label>
+            <input type="text" name="nom" placeholder="Nom..." required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Votre sujet</label>
+          <input type="text" name="sujet" placeholder="Sujet du message..." required />
+        </div>
+        <div class="form-group">
+          <label>Votre message</label>
+          <textarea name="message" placeholder="Décrivez votre projet ou votre idée..." rows="6" required></textarea>
+        </div>
+        <div style="text-align:center;">
+          <button type="submit" class="btn-submit" id="submitBtn">Envoyer</button>
+        </div>
+      </form>
+
+      <!-- Réseaux sociaux -->
+      <div class="social-row">
+        <a href="https://github.com/AsmaDev" target="_blank" class="social-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/Majoie Assa'tsop" target="_blank" class="social-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#0077b5"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://instagram.com/bb_majoie_2" target="_blank" class="social-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="url(#ig2)">
+            <defs><linearGradient id="ig2" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f09433"/><stop offset="50%" stop-color="#dc2743"/><stop offset="100%" stop-color="#bc1888"/></linearGradient></defs>
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+          </svg>
+          Instagram
+        </a>
+        <a href="https://facebook.com/majoie asma" target="_blank" class="social-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#1877f2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <span>Designed by <a href="#" class="accent">Majoie ASSA'TSOP</a> with HTML CSS JS</span>
+      <span>Tous droits réservés · 2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
